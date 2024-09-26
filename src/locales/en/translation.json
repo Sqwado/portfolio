@@ -1,0 +1,20 @@
+{
+    "nav": {
+        "home": "Home",
+        "articles": "Articles",
+        "enterprises": "Enterprises",
+        "contact": "Contact"
+    },
+    "name": "Your Name",
+    "profession": "Full-Stack Developer",
+    "intro": "I am a developer passionate about creating modern and responsive web applications. I have experience in stock management systems development and digital transformations within a drone company.",
+    "experience": "My Journey",
+    "experience_description": "I have worked on various projects, notably in stock management, where I improved processes using modern technologies. My internship at the drone company allowed me to gain hands-on experience and enhance my skills in information systems development.",
+    "skills": "My Skills",
+    "skill1": "Front-end development with React and Vite.js",
+    "skill2": "Project management with agile methodologies",
+    "skill3": "Continuous integration and deployment with modern tools",
+    "blog_overview": "About the Blog",
+    "blog_overview_description": "This blog is a space where I share my professional experiences, technical challenges, and learnings from my projects, including during my internship at a drone company.",
+    "footer_text": "My Blog. All rights reserved."
+}

@@ -1,0 +1,20 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "articles": "Articles",
+        "enterprises": "Entreprises",
+        "contact": "Contact"
+    },
+    "name": "Ton Nom",
+    "profession": "Développeur Full-Stack",
+    "intro": "Je suis un développeur passionné par la création d'applications web modernes et réactives. J'ai une expérience dans le développement de systèmes de gestion de stock et les transformations numériques au sein d'une entreprise de drones.",
+    "experience": "Mon Parcours",
+    "experience_description": "J'ai travaillé sur divers projets, notamment dans la gestion de stock, où j'ai amélioré les processus grâce à des technologies modernes. Mon stage chez l'entreprise de drones m'a permis d'acquérir une expérience pratique et d'améliorer mes compétences en développement de systèmes d'information.",
+    "skills": "Mes Compétences",
+    "skill1": "Développement front-end avec React et Vite.js",
+    "skill2": "Gestion de projet avec des méthodologies agiles",
+    "skill3": "Intégration continue et déploiement avec des outils modernes",
+    "blog_overview": "À Propos du Blog",
+    "blog_overview_description": "Ce blog est un espace où je partage mes expériences professionnelles, mes défis techniques et mes apprentissages au cours de mes projets, notamment durant mon stage dans une entreprise de drones.",
+    "footer_text": "Mon Blog. Tous droits réservés."
+}
