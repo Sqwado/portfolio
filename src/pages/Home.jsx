@@ -12,7 +12,7 @@ const Home = () => {
                 <img
                     src={profilePic}
                     alt="Profile"
-                    className="w-32 h-32 rounded-full shadow-lg mb-4"
+                    className="w-32 h-32 rounded-full shadow-lg mb-4 object-cover"
                 />
                 <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
                     {t('name')}

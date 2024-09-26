@@ -40,7 +40,7 @@ const SwitchTheme = () => {
                     exit={{ opacity: 0 }}
                     transition={{ duration: 0.3 }} // Smooth transition for icon change
                 >
-                    <FiSun className="w-6 h-6 text-gray-900" /> {/* Icône pour le mode clair */}
+                    <FiSun className="w-6 h-6 text-yellow-300" /> {/* Icône pour le mode clair */}
                 </motion.div>
             )}
 

@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* index.css */
+* {
+  @apply transition-colors duration-500;
+}
 
 
 :root {

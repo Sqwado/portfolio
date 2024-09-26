@@ -26,7 +26,7 @@ const SwitchLanguage = () => {
             MenuProps={{
                 PaperProps: {
                     sx: {
-                        bgcolor: isDarkMode ? 'ragb(28 25 23)' : 'white', // Couleur de fond
+                        bgcolor: isDarkMode ? 'rgb(28 25 23)' : 'white', // Couleur de fond
                     },
                 },
             }}
