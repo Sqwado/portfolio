@@ -5,16 +5,66 @@
         "enterprises": "Enterprises",
         "contact": "Contact"
     },
-    "name": "Your Name",
-    "profession": "Full-Stack Developer",
-    "intro": "I am a developer passionate about creating modern and responsive web applications. I have experience in stock management systems development and digital transformations within a drone company.",
-    "experience": "My Journey",
-    "experience_description": "I have worked on various projects, notably in stock management, where I improved processes using modern technologies. My internship at the drone company allowed me to gain hands-on experience and enhance my skills in information systems development.",
-    "skills": "My Skills",
-    "skill1": "Front-end development with React and Vite.js",
-    "skill2": "Project management with agile methodologies",
-    "skill3": "Continuous integration and deployment with modern tools",
-    "blog_overview": "About the Blog",
-    "blog_overview_description": "This blog is a space where I share my professional experiences, technical challenges, and learnings from my projects, including during my internship at a drone company.",
-    "footer_text": "My Blog. All rights reserved."
+    "home": {
+        "main": {
+            "name": "LUQUE Mateo",
+            "profession": "Computer Science Student in Development",
+            "intro": "Hello, I am Mateo, a computer science student passionate about software development and modern technologies. I have worked on various projects, including stock management and information system development. I am passionate about continuous learning, improving my skills, and solving problems."
+        },
+        "experience": {
+            "title": "My Journey",
+            "xps": [
+                {
+                    "title": "2022 - NSI, Mathematics Baccalaureate (Honors)",
+                    "description": "I obtained my baccalaureate in 2022 with honors, specializing in NSI (Digital and Computer Science) and Mathematics with an average of 14.6.",
+                    "done": true
+                },
+                {
+                    "title": "2022 - Start of Bachelor in Computer Science",
+                    "description": "Started my university studies in computer science at Sophia Ynov Campus, where I began learning the basics of programming and software development.",
+                    "done": true
+                },
+                {
+                    "title": "2024 - Stock Management System Internship",
+                    "description": "I completed a 2.5-month internship at FlyingEye, a company specializing in drones, where I developed a stock management system for the parts needed for their activities.",
+                    "done": true
+                },
+                {
+                    "title": "2024 - Start of Apprenticeship",
+                    "description": "Started my apprenticeship contract at FlyingEye as a multitasking developer, where I work on developing their information system and managing their stock.",
+                    "done": true
+                },
+                {
+                    "title": "2027 - Obtaining Master's Degree in Computer Science (upcoming)",
+                    "description": "I plan to obtain my Master's degree in Computer Science in 2027, specializing in software development and information systems.",
+                    "done": false
+                }
+            ]
+        },
+        "skills": {
+            "title": "My Skills",
+            "skill1": "Front-end development with React and Vite.js, and back-end with Node.js and Express",
+            "skill2": "Project management with agile methods and collaboration tools",
+            "skill3": "Continuous integration and deployment with modern tools"
+        },
+        "blog_overview": {
+            "title": "About the Blog",
+            "description": "This blog is a space where I share my professional experiences, technical challenges, and learnings throughout my projects, particularly in software development and modern technologies."
+        }
+    },
+    "contact": {
+        "title": "Contact Me",
+        "description": "Feel free to contact me for any questions or collaboration proposals. I would be happy to discuss with you.",
+        "info": {
+            "title": "Contact Information",
+            "details": "All contact information is available below and in the downloadable CV.",
+            "email": "Email",
+            "phone": "Phone"
+        },
+        "social": "Social Networks"
+    },
+    "footer": {
+        "text": "Thank you for visiting my website. Feel free to contact me for any questions or collaboration proposals."
+    },
+    "download_cv": "Download CV"
 }

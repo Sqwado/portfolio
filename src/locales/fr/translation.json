@@ -5,16 +5,66 @@
         "enterprises": "Entreprises",
         "contact": "Contact"
     },
-    "name": "Ton Nom",
-    "profession": "Développeur Full-Stack",
-    "intro": "Je suis un développeur passionné par la création d'applications web modernes et réactives. J'ai une expérience dans le développement de systèmes de gestion de stock et les transformations numériques au sein d'une entreprise de drones.",
-    "experience": "Mon Parcours",
-    "experience_description": "J'ai travaillé sur divers projets, notamment dans la gestion de stock, où j'ai amélioré les processus grâce à des technologies modernes. Mon stage chez l'entreprise de drones m'a permis d'acquérir une expérience pratique et d'améliorer mes compétences en développement de systèmes d'information.",
-    "skills": "Mes Compétences",
-    "skill1": "Développement front-end avec React et Vite.js",
-    "skill2": "Gestion de projet avec des méthodologies agiles",
-    "skill3": "Intégration continue et déploiement avec des outils modernes",
-    "blog_overview": "À Propos du Blog",
-    "blog_overview_description": "Ce blog est un espace où je partage mes expériences professionnelles, mes défis techniques et mes apprentissages au cours de mes projets, notamment durant mon stage dans une entreprise de drones.",
-    "footer_text": "Mon Blog. Tous droits réservés."
+    "home": {
+        "main": {
+            "name": "LUQUE Mateo",
+            "profession": "Étudiant en Informatique en Développement",
+            "intro": "Bonjour, je suis Mateo, un étudiant en informatique passionné par le développement de logiciels et les technologies modernes. J'ai travaillé sur divers projets, notamment dans la gestion de stock et le développement de systèmes d'information. Je suis passionné par l'apprentissage continu, l'amélioration de mes compétences et la résolution de problèmes."
+        },
+        "experience": {
+            "title": "Mon Parcours",
+            "xps": [
+                {
+                    "title": "2022 - Bac NSI, Mathématiques (Mention Bien)",
+                    "description": "J'ai obtenu mon baccalauréat en 2022 avec une mention Bien, spécialité NSI (Numérique et Sciences Informatiques) et Mathématiques avec 14,6 de moyenne.",
+                    "done": true
+                },
+                {
+                    "title": "2022 - Début Bachelor Informatique",
+                    "description": "Début de mon cursus universitaire en informatique à Sophia Ynov Campus, où j'ai commencé à apprendre les bases de la programmation et du développement de logiciels.",
+                    "done": true
+                },
+                {
+                    "title": "2024 - Stage Systeme gestion de stock",
+                    "description": "J'ai effectué un stage de 2 mois et demi chez FlyingEye, une entreprise spécialisée dans le domaine du drone, où j'ai développé un système de gestion de stock pour les pièces nécessaires à leurs activités.",
+                    "done": true
+                },
+                {
+                    "title": "2024 - Début Alternance",
+                    "description": "Début de mon contrat d'alternance chez FlyingEye en tant que développeur multitâche, où je travaille sur le développement de leur système d'information et la gestion de leur stock.",
+                    "done": true
+                },
+                {
+                    "title": "2027 - Obtention Master Informatique (à venir)",
+                    "description": "Je prévois d'obtenir mon Master en Informatique en 2027, avec une spécialisation en développement de logiciels et systèmes d'information.",
+                    "done": false
+                }
+            ]
+        },
+        "skills": {
+            "title": "Mes Compétences",
+            "skill1": "Développement front-end avec React et Vite.js, et back-end avec Node.js et Express",
+            "skill2": "Gestion de projet avec des méthodes agiles et des outils de collaboration",
+            "skill3": "Intégration continue et déploiement avec des outils modernes"
+        },
+        "blog_overview": {
+            "title": "À Propos du Blog",
+            "description": "Ce blog est un espace où je partage mes expériences professionnelles, mes défis techniques et mes apprentissages au cours de mes projets, notamment dans le développement de logiciels et les technologies modernes."
+        }
+    },
+    "contact": {
+        "title": "Contactez-moi",
+        "description": "N'hésitez pas à me contacter pour toute question ou proposition de collaboration. Je serai ravi d'échanger avec vous.",
+        "info": {
+            "title": "Informations de Contact",
+            "details": "Toutes les informations de contact sont disponibles ci-dessous et dans le CV téléchargeable.",
+            "email": "Email",
+            "phone": "Téléphone"
+        },
+        "social": "Réseaux Sociaux"
+    },
+    "footer": {
+        "text": "Merci de visiter mon site web. N'hésitez pas à me contacter pour toute question ou proposition de collaboration."
+    },
+    "download_cv": "Télécharger le CV"
 }
