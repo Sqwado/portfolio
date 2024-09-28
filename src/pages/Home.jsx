@@ -6,36 +6,32 @@ import ExpLine from '../components/ExpLine';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { useInView } from 'react-intersection-observer';
 
-const buttonStyles = "bg-gradient-to-r from-gray-100 to-stone-300 text-gray-900 font-bold py-3 px-6 rounded-lg shadow-lg transition-all duration-300 " +
-    "dark:bg-gradient-to-br dark:from-stone-800 dark:to-black dark:text-white hover:shadow-xl hover:scale-105 focus:outline-none";
-
 const textStyles = "text-gray-700 dark:text-stone-300";
 
 const Home = () => {
     const { t } = useTranslation();
     const experiences = t('home.experience.xps', { returnObjects: true });
 
+    // Create refs for each section to manage in-view state
     const { ref: titleRef, inView: titleInView } = useInView({ triggerOnce: true, threshold: 0.1 });
     const { ref: introRef, inView: introInView } = useInView({ triggerOnce: true, threshold: 0.1 });
     const { ref: experienceRef, inView: experienceInView } = useInView({ triggerOnce: true, threshold: 0.1 });
     const { ref: skillsRef, inView: skillsInView } = useInView({ triggerOnce: true, threshold: 0.1 });
     const { ref: blogRef, inView: blogInView } = useInView({ triggerOnce: true, threshold: 0.1 });
-    const { ref: cvRef, inView: cvInView } = useInView({ triggerOnce: true, threshold: 0.1 });
 
     return (
         <div className="p-4 sm:p-6 md:p-8 flex flex-col items-center">
             {/* Section présentation */}
-            <section className="flex flex-col items-center text-center mt-4 sm:mt-6 lg:mt-8 max-w-3xl">
+            <section ref={titleRef} className="flex flex-col items-center text-center mt-4 sm:mt-6 lg:mt-8 max-w-3xl">
                 <motion.img
                     src={profilePic}
                     alt="Profile"
-                    className="w-36 h-36 rounded-full shadow-xl mb-6 object-cover ring-4 ring-white dark:ring-stone-700"
+                    className="w-36 h-36 rounded-3xl shadow-xl mb-6 object-cover ring-4 ring-white dark:ring-stone-700"
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8 }} />
 
                 <motion.h1
-                    ref={titleRef}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: titleInView ? 1 : 0 }}
                     transition={{ duration: 0.5 }}
@@ -71,8 +67,8 @@ const Home = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`flex items-center justify-center ${textStyles} rounded-lg p-3 transition duration-200 
-                    bg-white dark:bg-stone-800 shadow-md hover:shadow-lg hover:scale-105 
-                    transform`}
+                        bg-white dark:bg-stone-800 shadow-md hover:shadow-lg hover:scale-105 
+                        transform`}
                         whileHover={{ scale: 1.1 }}
                     >
                         <FaGithub size={24} />
@@ -82,8 +78,8 @@ const Home = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`flex items-center justify-center ${textStyles} rounded-lg p-3 transition duration-200 
-                    bg-white dark:bg-stone-800 shadow-md hover:shadow-lg hover:scale-105 
-                    transform`}
+                        bg-white dark:bg-stone-800 shadow-md hover:shadow-lg hover:scale-105 
+                        transform`}
                         whileHover={{ scale: 1.1 }}
                     >
                         <FaLinkedin size={24} />
@@ -94,8 +90,8 @@ const Home = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`flex items-center justify-center ${textStyles} rounded-lg p-3 transition duration-200 
-                    bg-white dark:bg-stone-800 shadow-md hover:shadow-lg hover:scale-105 
-                    transform`}
+                        bg-white dark:bg-stone-800 shadow-md hover:shadow-lg hover:scale-105 
+                        transform`}
                         initial={{ opacity: 0, scale: 0 }} // Set to hidden
                         animate={{ opacity: 1, scale: 1 }} // Fade in when in view
                         transition={{ duration: 0.5 }}
@@ -104,10 +100,7 @@ const Home = () => {
                     >
                         {t('download_cv')}
                     </motion.a>
-
                 </div>
-
-
             </section>
 
             {/* Section parcours */}
@@ -144,15 +137,14 @@ const Home = () => {
                     transition={{ duration: 0.5 }}
                     className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {[1, 2, 3].map((skill, index) => (
-                        <div key={index} className="bg-white dark:bg-stone-800 shadow-lg rounded-lg p-6 text-center transform transition-transform duration-300 hover:scale-105">
-                            <motion.p
-                                className={textStyles}
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                transition={{ delay: index * 0.1 }}>
+                        <motion.div key={index} className="bg-white dark:bg-stone-800 shadow-lg rounded-lg p-6 text-center transform transition-transform duration-300 hover:scale-105"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: skillsInView ? 1 : 0 }}
+                            transition={{ duration: 0.5, delay: index * 0.1 }}>
+                            <p className={textStyles}>
                                 {t(`home.skills.skill${skill}`)}
-                            </motion.p>
-                        </div>
+                            </p>
+                        </motion.div>
                     ))}
                 </motion.div>
             </section>
