@@ -1,21 +1,41 @@
-// src/ThemeContext.js
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
-    const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem('theme') === 'dark');
+    const getDefaultTheme = () => {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            return savedTheme === 'dark';
+        }
+        // Check the system's theme preference
+        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    };
+
+    const [isDarkMode, setIsDarkMode] = useState(getDefaultTheme);
 
     useEffect(() => {
-        // Set the initial theme based on localStorage
+        // Listen for system theme changes and update accordingly
+        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        const handleSystemThemeChange = (e) => {
+            setIsDarkMode(e.matches);
+        };
+
+        mediaQuery.addListener(handleSystemThemeChange);
+
+        return () => {
+            mediaQuery.removeListener(handleSystemThemeChange);
+        };
+    }, []);
+
+    useEffect(() => {
+        // Apply the theme based on isDarkMode state
         document.documentElement.classList.toggle('dark', isDarkMode);
-    }, [isDarkMode]); // Add isDarkMode to dependency array to run when it changes
+        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+    }, [isDarkMode]);
 
     const toggleTheme = () => {
-        const newTheme = isDarkMode ? 'light' : 'dark';
-        setIsDarkMode(prev => !prev); // Update state
-        localStorage.setItem('theme', newTheme); // Update localStorage
-        document.documentElement.classList.toggle('dark', newTheme === 'dark'); // Update class on document
+        setIsDarkMode((prev) => !prev);
     };
 
     return (

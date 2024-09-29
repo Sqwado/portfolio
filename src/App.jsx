@@ -1,11 +1,13 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Layout from './components/Layout'; // Importer le Layout
+import Layout from './components/Layout';
+import CompanyList from './pages/CompanyList';
+import CompanyDetails from './pages/CompanyDetails';
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 
-const supportedLanguages = ['fr', 'en']; // Langues supportées
+const supportedLanguages = ['fr', 'en'];
 
 const App = () => {
   const { i18n } = useTranslation();
@@ -15,20 +17,19 @@ const App = () => {
     if (lang && supportedLanguages.includes(lang)) {
       i18n.changeLanguage(lang);
     } else {
-      // Rediriger vers la langue par défaut si la langue n'est pas supportée
       window.location.pathname = '/fr';
     }
   }, [i18n]);
 
   return (
     <Router>
-      <Layout> {/* Utiliser le composant Layout */}
+      <Layout>
         <Routes>
-          {/* Redirection si aucune langue n'est spécifiée */}
           <Route path="/" element={<Navigate to="/fr" replace />} />
           <Route path="/:lang" element={<Home />} />
           <Route path="/:lang/contact" element={<Contact />} />
-          {/* Redirection vers le français pour les chemins non valides */}
+          <Route path="/:lang/enterprises" element={<CompanyList />} /> {/* Company List */}
+          <Route path="/:lang/enterprises/:companySlug" element={<CompanyDetails />} /> {/* Company Details */}
           <Route path="*" element={<Navigate to="/fr" replace />} />
         </Routes>
       </Layout>

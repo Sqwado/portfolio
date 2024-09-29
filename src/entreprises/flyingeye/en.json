@@ -1,0 +1,28 @@
+{
+    "name": "Flying Eye",
+    "shortDescription": "Flying Eye is a company specialized in the field of drones.",
+    "description": {
+        "title": "Overview",
+        "details": "Flying Eye, located in Sophia Antipolis, is an innovative company that supports businesses and public administrations in implementing drone-related projects. Founded in 2009, it has distinguished itself by becoming the largest DJI Enterprise supplier and the exclusive reseller of the VTOL Autel Robotics Dragonfish in France. With a wide range of drone and anti-drone equipment, Flying Eye also offers a specialized training center that trains professionals in drone-related professions. The company's clients, including professionals, large accounts, and public administrations, recognize Flying Eye's expertise and level of service, thus consolidating its position as a leader in the sector."
+    },
+    "workEnvironment": {
+        "title": "Work Environment",
+        "details": "The work environment at Flying Eye is dynamic and innovation-oriented. The company prioritizes collaboration among its employees, fostering a strong team spirit that is essential for developing solutions tailored to each client's needs. Team members work with cutting-edge technologies and benefit from a corporate culture that values continuous learning and professional development."
+    },
+    "context": {
+        "title": "Context",
+        "details": "Flying Eye is located in the heart of Sophia Antipolis, a technopole renowned for its innovation ecosystem and high-tech companies. This strategic location allows the company to benefit from synergies with other sector players and access a network of potential partners and clients. The region, rich in talent and skills, provides a conducive environment for the growth of drone and aerospace activities."
+    },
+    "activity": {
+        "title": "Activity",
+        "details": "The company specializes in the construction of drone modules, the sale of drones, and training in drone-related professions, offering comprehensive solutions tailored to its clients' requirements. Through its commitment to innovation and quality, Flying Eye contributes to the advancement of drone technologies in various sectors."
+    },
+    "internshipExperience": {
+        "title": "Internship Experience",
+        "details": "During my two and a half month internship at Flying Eye, software solutions were developed to meet the company's specific needs. In particular, a stock management system was designed to optimize logistics and material tracking. Additionally, transformations for the manufacturing of the company's proprietary products were carried out, thus improving production process efficiency. This experience allowed me to strengthen my technical skills and learn to work closely with a team dedicated to innovation in the drone sector."
+    },
+    "latestInnovations": {
+        "title": "Latest Innovations",
+        "details": "Flying Eye remains at the forefront of the latest innovations in the field of drones. The company continuously explores advanced technologies, such as autonomous drones, detection and avoidance systems, and AI-based data solutions. These innovations meet the growing needs of clients and reinforce Flying Eye's position as a leader in the sector."
+    }
+}

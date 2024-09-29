@@ -9,7 +9,7 @@
         "main": {
             "name": "LUQUE Mateo",
             "profession": "Computer Science Student in Development",
-            "intro": "Hello, I am Mateo, a computer science student passionate about software development and modern technologies. I have worked on various projects, including stock management and information system development. I am passionate about continuous learning, improving my skills, and solving problems."
+            "intro": "Hello, I am Mateo (Sqwado on The Web), a computer science student passionate about software development and modern technologies. I have worked on various projects, including stock management and information system development. I am passionate about continuous learning, improving my skills, and solving problems."
         },
         "experience": {
             "title": "My Journey",
@@ -62,6 +62,11 @@
             "phone": "Phone"
         },
         "social": "Social Networks"
+    },
+    "companyList": {
+        "title": "Company List",
+        "description": "Here you can find a list of companies I have worked with.",
+        "noCompanies": "No companies found for the selected language."
     },
     "footer": {
         "text": "Thank you for visiting my website. Feel free to contact me for any questions or collaboration proposals."

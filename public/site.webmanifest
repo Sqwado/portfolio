@@ -1,0 +1,46 @@
+{
+    "name": "Sqwado's Portfolio",
+    "short_name": "Sqwado",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "/",
+    "scope": "/",
+    "description": "Sqwado's Portfolio is a personal website showcasing my projects, skills, and experiences in software development.",
+    "lang": "en, fr",
+    "orientation": "portrait",
+    "prefer_related_applications": false,
+    "related_applications": [],
+    "screenshots": [],
+    "categories": [
+        "portfolio",
+        "personal",
+        "developer",
+        "software",
+        "projects",
+        "skills",
+        "experiences",
+        "web",
+        "applications",
+        "development",
+        "programming",
+        "coding",
+        "technology",
+        "modern",
+        "innovation"
+    ],
+    "dir": "ltr",
+    "iarc_rating_id": "iarc-3"
+}

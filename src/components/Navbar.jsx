@@ -19,7 +19,7 @@ const Navbar = () => {
     };
 
     const closeDrawer = () => {
-        setDrawerOpen(false); // Function to close the drawer
+        setDrawerOpen(false); // Close the drawer
     };
 
     const menuItems = [
@@ -35,21 +35,25 @@ const Navbar = () => {
             transition={{ duration: 0.6, ease: [0.5, 0, 0.5, 1] }}>
             <div className="bg-white dark:bg-stone-900 shadow-lg">
                 <div className="flex justify-between items-center p-4 md:p-6 gap-4">
+                    {/* Logo */}
                     <RedirectWithLang to="/" className="flex items-center space-x-2">
                         <img src="/sqwado_2.0_black_slim.png" alt="Logo" className="h-10 rounded-lg transition-transform transform hover:scale-105" />
                     </RedirectWithLang>
-                    <div className="flex-grow flex items-center space-x-6">
-                        {!isMobile && (
+
+                    {/* Desktop Menu */}
+                    {!isMobile && (
+                        <div className="flex-grow flex items-center space-x-6">
                             <div className="flex space-x-4">
                                 {menuItems.map((item, index) => (
-                                    <RedirectWithLang key={index} to={item.to} >
+                                    <RedirectWithLang key={index} to={item.to}>
                                         {item.text}
                                     </RedirectWithLang>
                                 ))}
                             </div>
-                        )}
-                    </div>
+                        </div>
+                    )}
 
+                    {/* Theme and Language Switchers */}
                     <div className="flex items-center space-x-2">
                         {!isMobile && (
                             <>
@@ -57,19 +61,22 @@ const Navbar = () => {
                                 <SwitchLanguage />
                             </>
                         )}
+
+                        {/* Mobile Menu Toggle Button */}
                         {isMobile && (
                             <IconButton
                                 edge="end"
                                 color="inherit"
                                 aria-label="menu"
                                 onClick={toggleDrawer(true)}>
-                                <MenuIcon className='text-gray-900 dark:text-white' />
+                                <MenuIcon className="text-gray-900 dark:text-white" />
                             </IconButton>
                         )}
                     </div>
                 </div>
             </div>
 
+            {/* Mobile Drawer */}
             <SwipeableDrawer
                 anchor="right"
                 open={drawerOpen}
@@ -77,24 +84,31 @@ const Navbar = () => {
                 onClose={toggleDrawer(false)}
                 sx={{
                     '& .MuiDrawer-paper': {
-                        backgroundColor: 'bg-white dark:bg-stone-900',
+                        backgroundColor: 'white',
+                        dark: 'dark:bg-stone-900',
                     },
                 }}>
                 <div
                     role="presentation"
                     className="bg-white dark:bg-stone-900 p-4 w-screen max-w-sm h-full flex flex-col items-start">
                     <div className="flex justify-between w-full mb-4">
+                        {/* Drawer Logo */}
                         <RedirectWithLang to="/" className="flex items-center space-x-2">
                             <img src="/sqwado_2.0_black_slim.png" alt="Logo" className="h-10 rounded-lg transition-transform transform hover:scale-105" />
                         </RedirectWithLang>
+                        {/* Close Drawer Button */}
                         <Button onClick={toggleDrawer(false)} className="p-0">
                             <CloseIcon className="text-gray-900 dark:text-white" />
                         </Button>
                     </div>
+
+                    {/* Switchers inside Drawer */}
                     <div className="flex justify-around space-x-4 mb-4 w-full">
                         <SwitchTheme />
                         <SwitchLanguage />
                     </div>
+
+                    {/* Drawer Menu Items */}
                     <div className="flex flex-col items-center w-full">
                         <List>
                             {menuItems.map((item, index) => (

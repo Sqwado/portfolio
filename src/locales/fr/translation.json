@@ -9,7 +9,7 @@
         "main": {
             "name": "LUQUE Mateo",
             "profession": "Étudiant en Informatique en Développement",
-            "intro": "Bonjour, je suis Mateo, un étudiant en informatique passionné par le développement de logiciels et les technologies modernes. J'ai travaillé sur divers projets, notamment dans la gestion de stock et le développement de systèmes d'information. Je suis passionné par l'apprentissage continu, l'amélioration de mes compétences et la résolution de problèmes."
+            "intro": "Bonjour, je suis Mateo (Sqwado sur Internet), un étudiant en informatique passionné par le développement de logiciels et les technologies modernes. J'ai travaillé sur divers projets, notamment dans la gestion de stock et le développement de systèmes d'information. Je suis passionné par l'apprentissage continu, l'amélioration de mes compétences et la résolution de problèmes."
         },
         "experience": {
             "title": "Mon Parcours",
@@ -62,6 +62,11 @@
             "phone": "Téléphone"
         },
         "social": "Réseaux Sociaux"
+    },
+    "companyList": {
+        "title": "Liste des entreprises",
+        "description": "Ici, vous pouvez trouver une liste des entreprises avec lesquelles j'ai travaillé.",
+        "noCompanies": "Aucune entreprise trouvée pour la langue sélectionnée."
     },
     "footer": {
         "text": "Merci de visiter mon site web. N'hésitez pas à me contacter pour toute question ou proposition de collaboration."

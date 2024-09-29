@@ -5,10 +5,12 @@ import { motion } from 'framer-motion';
 import ExpLine from '../components/ExpLine';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { useInView } from 'react-intersection-observer';
+import DocumentTitle from '../utils/DocumentTitle';
 
 const textStyles = "text-gray-700 dark:text-stone-300";
 
 const Home = () => {
+    DocumentTitle('SP - Home');
     const { t } = useTranslation();
     const experiences = t('home.experience.xps', { returnObjects: true });
 
@@ -60,8 +62,8 @@ const Home = () => {
                     ))}
                 </motion.p>
 
-                {/* Center Align Social Links and CV Button */}
-                <div className="flex flex-col sm:flex-row justify-center space-x-4 mt-4">
+                {/* Social Links and CV Button */}
+                <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-4">
                     <motion.a
                         href="https://github.com/Sqwado"
                         target="_blank"
@@ -69,8 +71,7 @@ const Home = () => {
                         className={`flex items-center justify-center ${textStyles} rounded-lg p-3 transition duration-200 
                         bg-white dark:bg-stone-800 shadow-md hover:shadow-lg hover:scale-105 
                         transform`}
-                        whileHover={{ scale: 1.1 }}
-                    >
+                        whileHover={{ scale: 1.1 }}>
                         <FaGithub size={24} />
                     </motion.a>
                     <motion.a
@@ -80,11 +81,9 @@ const Home = () => {
                         className={`flex items-center justify-center ${textStyles} rounded-lg p-3 transition duration-200 
                         bg-white dark:bg-stone-800 shadow-md hover:shadow-lg hover:scale-105 
                         transform`}
-                        whileHover={{ scale: 1.1 }}
-                    >
+                        whileHover={{ scale: 1.1 }}>
                         <FaLinkedin size={24} />
                     </motion.a>
-                    {/* CV Button */}
                     <motion.a
                         href="/CV_Mateo_Luque.pdf"
                         target="_blank"
@@ -92,12 +91,11 @@ const Home = () => {
                         className={`flex items-center justify-center ${textStyles} rounded-lg p-3 transition duration-200 
                         bg-white dark:bg-stone-800 shadow-md hover:shadow-lg hover:scale-105 
                         transform`}
-                        initial={{ opacity: 0, scale: 0 }} // Set to hidden
-                        animate={{ opacity: 1, scale: 1 }} // Fade in when in view
+                        initial={{ opacity: 0, scale: 0 }}
+                        animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.5 }}
                         whileHover={{ scale: 1.05, boxShadow: "0 8px 25px rgba(0, 0, 0, 0.3)" }}
-                        whileTap={{ scale: 0.95 }}
-                    >
+                        whileTap={{ scale: 0.95 }}>
                         {t('download_cv')}
                     </motion.a>
                 </div>

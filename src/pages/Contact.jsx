@@ -1,8 +1,10 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import DocumentTitle from '../utils/DocumentTitle';
 
 const Contact = () => {
+    DocumentTitle('SP - Contact');
     const { t } = useTranslation();
 
     // Define email and phone number as constants
