@@ -1,0 +1,28 @@
+{
+    "title": "Internship Summary",
+    "shortDescription": "A reflection on the acquired experience and lessons learned.",
+    "publicationDate": "2024-09-29",
+    "intro": "My internship at Flying Eye was an incredibly enriching and formative experience. This two and a half month period not only allowed me to deepen my technical skills but also to immerse myself in the professional world, where I encountered various challenges that shaped my vision of developing application solutions.",
+    "sections": {
+        "impressions": {
+            "title": "General Impressions",
+            "details": "From my arrival at Flying Eye, I was struck by the stimulating and innovative work environment. The company culture, focused on collaboration and creativity, immediately put me at ease. The team spirit within the company was a key factor in my integration. I was able to freely exchange ideas with my colleagues, which not only enriched my knowledge but also cultivated a sense of belonging.\n\nThe constant support from my mentor was another positive aspect of this experience. His pedagogical approach and availability to answer my questions allowed me to navigate my tasks with confidence. This also taught me the importance of guidance and knowledge sharing in a professional setting."
+        },
+        "experience": {
+            "title": "Acquired Experience",
+            "details": "During my internship, I developed solid expertise in web development, particularly through the use of technologies such as React, Node.js, and MySQL. I had the opportunity to participate in all stages of application development, from design to production.\n\nOne of the achievements I am most proud of is the deployment of the application on a local server with PM2 and Nginx. This process allowed me to gain a deep understanding of the challenges related to application production, such as performance management, security, and maintenance.\n\nThis experience also allowed me to develop time management and organizational skills. I learned to prioritize tasks, meet deadlines, and manage projects effectively. Working autonomously pushed me to make critical decisions, anticipate problems, and seek appropriate solutions."
+        },
+        "improvements": {
+            "title": "Areas for Improvement",
+            "details": "Despite an overall positive experience, several areas for improvement need to be considered. I identified the need for more rigorous project planning. A deeper forecast of needs would better guide development efforts and avoid last-minute adjustments that can cause stress and confusion.\n\nIt would also be beneficial to organize regular and structured communication moments between the developer and future users. By creating feedback sessions throughout development, we could better understand user expectations, which would promote the adoption of developed solutions."
+        },
+        "suggestions": {
+            "title": "Suggestions for the Future",
+            "details": "In the future, I would suggest encouraging proactive collaboration between developers and users from the initial phases of the project. Setting up co-design workshops would allow users to express their needs and expectations from the start, thus facilitating the development of suitable and relevant solutions.\n\nAdditionally, it might be interesting to formalize a mentoring approach for new interns to ensure smooth integration and a more fluid transfer of skills. This would also strengthen team spirit and project continuity within the company."
+        },
+        "conclusion": {
+            "title": "Conclusion",
+            "details": "This internship not only allowed me to strengthen my technical skills but also to better understand the realities of the professional world. I discovered that software development is not only about coding but also about communication, collaboration, and adaptability. The challenges encountered during this period were formative and prepared me to face new challenges in my career.\n\nIn summary, I come out of this experience with a better understanding of my role as a developer, renewed motivation to continue learning and evolving in this exciting field, and a desire to bring innovative solutions to the problems I will face in the future. I am grateful to Flying Eye for this opportunity, and I am excited to continue my work-study program within the company, which will allow me to put into practice everything I have learned and further deepen my skills."
+        }
+    }
+}

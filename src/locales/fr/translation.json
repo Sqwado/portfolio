@@ -68,6 +68,14 @@
         "description": "Ici, vous pouvez trouver une liste des entreprises avec lesquelles j'ai travaillé.",
         "noCompanies": "Aucune entreprise trouvée pour la langue sélectionnée."
     },
+    "articleList": {
+        "title": "Liste des Articles",
+        "description": "Ici, vous pouvez trouver une liste des articles que j'ai publiés.",
+        "noArticles": "Aucun article trouvé avec les filtres sélectionnés.",
+        "searchPlaceholder": "Rechercher des articles...",
+        "sortByLatest": "Trier par plus récent",
+        "sortByOldest": "Trier par plus ancien"
+    },
     "footer": {
         "text": "Merci de visiter mon site web. N'hésitez pas à me contacter pour toute question ou proposition de collaboration."
     },

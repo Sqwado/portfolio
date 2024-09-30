@@ -68,6 +68,14 @@
         "description": "Here you can find a list of companies I have worked with.",
         "noCompanies": "No companies found for the selected language."
     },
+    "articleList": {
+        "title": "Article List",
+        "description": "Here you can find a list of articles I have published.",
+        "noArticles": "No articles found with the selected filters.",
+        "searchPlaceholder": "Search articles...",
+        "sortByLatest": "Sort by latest",
+        "sortByOldest": "Sort by oldest"
+    },
     "footer": {
         "text": "Thank you for visiting my website. Feel free to contact me for any questions or collaboration proposals."
     },

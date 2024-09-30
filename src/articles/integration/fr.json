@@ -1,0 +1,27 @@
+{
+    "title": "Intégration chez Flying Eye",
+    "shortDescription": "Un aperçu de mon intégration chez Flying Eye lors de mon stage de fin de Bachelor 2 en informatique.",
+    "publicationDate": "2024-09-01",
+    "sections": {
+        "description": {
+            "title": "Vue d'ensemble",
+            "details": "L'intégration dans une nouvelle entreprise est souvent un moment crucial, surtout pour un stagiaire. Il s'agit non seulement de comprendre les attentes professionnelles, mais également de s'adapter à une nouvelle culture et de s'intégrer dans une équipe en place."
+        },
+        "culture": {
+            "title": "Compréhension de la culture d’entreprise",
+            "details": "Chaque entreprise a ses propres codes et sa propre culture. Chez Flying Eye, l'innovation et la technologie sont au cœur des activités. Très vite, j'ai compris que l'entreprise valorise la prise d'initiative et l'adaptabilité. M'intégrer dans une telle dynamique m'a permis d'apprendre à m'adapter rapidement à un environnement en constante évolution."
+        },
+        "relationships": {
+            "title": "Établir des relations solides",
+            "details": "L'un des aspects les plus importants de mon intégration a été l'établissement de relations avec les membres de l'équipe. J'ai eu la chance de travailler avec des collègues expérimentés qui m'ont guidé à travers les différents processus. Grâce à des échanges réguliers, j'ai pu comprendre rapidement les attentes de l'entreprise et adapter mon travail en conséquence."
+        },
+        "process": {
+            "title": "Apprentissage des processus internes",
+            "details": "Apprendre les processus internes a été un défi important. Flying Eye étant une entreprise spécialisée dans les technologies innovantes, il était essentiel pour moi de maîtriser rapidement les outils et les processus techniques utilisés au quotidien. Cette phase d'apprentissage a été enrichissante car elle m'a permis de développer une compréhension plus large de l'écosystème technologique de l'entreprise."
+        },
+        "conclusion": {
+            "title": "Conclusion",
+            "details": "Mon intégration chez Flying Eye a été une étape clé de mon stage. Elle m'a permis de m'adapter rapidement, de comprendre la culture d'entreprise et d'établir des relations solides avec mes collègues. Cette expérience m'a également donné une base solide pour accomplir les missions qui m'ont été confiées."
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "title": "Aspects techniques des missions",
+    "shortDescription": "Exploration des technologies utilisées durant mes missions.",
+    "publicationDate": "2024-09-15",
+    "intro": "Les missions techniques réalisées pendant mon stage chez Flying Eye ont été une occasion précieuse d'approfondir mes connaissances en développement web. Les aspects techniques des projets se concentraient sur la mise en place d'un système complet de gestion des stocks, du développement jusqu'au déploiement.",
+    "sections": {
+        "development": {
+            "title": "Développement du système de gestion de stock",
+            "details": "Le développement du système de gestion des stocks a été réalisé en utilisant des technologies modernes comme React pour le front-end et Node.js avec Sequelize pour le back-end. L'objectif principal était de créer une application capable de gérer efficacement les entrées et sorties de stock tout en offrant une interface utilisateur intuitive et réactive."
+        },
+        "database": {
+            "title": "Gestion des bases de données",
+            "details": "Pour la gestion des données, j'ai utilisé MySQL en combinaison avec Sequelize, un ORM (Object Relational Mapping) qui simplifie la gestion des requêtes SQL et des relations entre les différentes tables. La structure de la base de données a été pensée pour permettre une gestion fluide et optimisée des données relatives aux stocks, tout en offrant une sécurité accrue."
+        },
+        "psdk": {
+            "title": "Développement avec DJI PSDK pour les drones d'entreprise",
+            "details": "En plus des projets liés au système de gestion de stocks, j'ai travaillé sur le développement d'une solution utilisant le DJI Payload SDK (PSDK) pour contrôler des accessoires de drones d'entreprise DJI. Cette solution, développée en C sur un microcontrôleur STM32, permet d'intégrer le contrôle des accessoires dans les commandes de la radiocommande (RC) du drone. Cela inclut la gestion d'équipements embarqués comme des capteurs ou des caméras, et leur utilisation à distance via l'interface DJI, ce qui améliore l'efficacité des missions sur le terrain."
+        },
+        "deployment": {
+            "title": "Déploiement avec PM2 et Nginx",
+            "details": "Le déploiement du système a été effectué sur un serveur local avec l'aide de PM2 pour gérer les processus Node.js et de Nginx pour la gestion des requêtes HTTP. Cette configuration a permis d'assurer la disponibilité du système tout en garantissant une bonne répartition des ressources serveur."
+        },
+        "conclusion": {
+            "title": "Conclusion",
+            "details": "Ces aspects techniques ont été cruciaux dans la réussite de mes missions. En utilisant des technologies de dernière génération, nous avons non seulement développé un système performant et stable, mais également un outil évolutif, prêt à s'adapter aux futures exigences du secteur. Cette approche technologique avant-gardiste permet à l'entreprise de rester en avance sur les évolutions du marché et d'anticiper les besoins de demain."
+        }
+    }
+}

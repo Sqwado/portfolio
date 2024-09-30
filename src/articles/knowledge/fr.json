@@ -1,0 +1,24 @@
+{
+    "title": "Connaissances Mobilisées Pendant les Missions",
+    "shortDescription": "Réflexion sur les compétences techniques et organisationnelles utilisées au cours de mon stage.",
+    "publicationDate": "2024-09-22",
+    "intro": "Les missions réalisées chez Flying Eye ont été des occasions précieuses pour développer une large gamme de compétences techniques et organisationnelles. Ces expériences m'ont permis d'appliquer des connaissances théoriques à des situations réelles, et d'acquérir une compréhension approfondie des défis rencontrés dans le développement de solutions innovantes.",
+    "sections": {
+        "webTech": {
+            "title": "Maîtrise des Technologies Web",
+            "details": "Au cours de mon stage, j'ai eu l'opportunité de travailler avec des technologies web modernes qui sont devenues des standards de l'industrie. J'ai utilisé React pour la création de l'interface utilisateur, ce qui m'a permis de concevoir des applications dynamiques et réactives. En parallèle, j'ai développé la partie back-end avec Node.js, en intégrant Sequelize comme ORM pour gérer efficacement les interactions avec la base de données MySQL. Cette expérience m'a non seulement permis de renforcer mes compétences en développement full-stack, mais aussi d'appréhender l'importance de la synergie entre le front-end et le back-end dans le cycle de vie des applications."
+        },
+        "database": {
+            "title": "Connaissances en Bases de Données",
+            "details": "La gestion des données a été un élément central dans le projet de gestion des stocks que j'ai développé. J'ai travaillé avec MySQL pour créer des structures de données efficaces et optimiser les requêtes nécessaires à la bonne gestion des stocks. Cette expérience m'a permis de comprendre l'importance de l'optimisation des bases de données, notamment en matière de performance et de fiabilité. J'ai appris à structurer les tables de manière logique et à élaborer des requêtes complexes pour extraire des informations pertinentes, ce qui est essentiel pour toute application web."
+        },
+        "projectManagement": {
+            "title": "Gestion de Projet",
+            "details": "La gestion de projet a été une compétence clé que j'ai développée au cours de mon stage. J'ai pris l'initiative d'organiser mes tâches de manière autonome, en les listant et en les marquant comme terminées au fur et à mesure de leur avancement. En outre, j'ai élaboré des documents essentiels, tels que le cahier des charges initial, qui a servi de feuille de route pour le développement. J'ai également documenté la structuration de l'application, incluant l'API, la base de données et l'interface utilisateur, afin d'assurer une clarté dans la réalisation des projets. De plus, j'ai préparé une documentation complète pour faciliter le redéploiement du système sur une autre machine si nécessaire. Mon travail a été réalisé en étroite collaboration avec mon mentor pour résoudre des questions pratiques, ainsi qu'avec les futurs utilisateurs de l'application pour adapter le produit à leurs besoins spécifiques."
+        },
+        "conclusion": {
+            "title": "Conclusion",
+            "details": "Les connaissances mobilisées durant mes missions chez Flying Eye ont été un tremplin pour mon développement professionnel. Elles m'ont permis non seulement de réaliser les missions avec succès, mais aussi de comprendre les enjeux et les défis liés à chaque projet. Ces expériences m'ont préparé à relever de nouveaux défis dans le domaine du développement web et à m'engager dans des projets futurs avec confiance et compétence."
+        }
+    }
+}

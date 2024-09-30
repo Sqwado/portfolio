@@ -1,0 +1,24 @@
+{
+    "title": "Knowledge Mobilized During Missions",
+    "shortDescription": "Reflection on the technical and organizational skills used during my internship.",
+    "publicationDate": "2024-09-22",
+    "intro": "The missions carried out at Flying Eye were valuable opportunities to develop a wide range of technical and organizational skills. These experiences allowed me to apply theoretical knowledge to real situations and gain a deep understanding of the challenges encountered in developing innovative solutions.",
+    "sections": {
+        "webTech": {
+            "title": "Mastery of Web Technologies",
+            "details": "During my internship, I had the opportunity to work with modern web technologies that have become industry standards. I used React for creating the user interface, which allowed me to design dynamic and responsive applications. At the same time, I developed the back-end with Node.js, integrating Sequelize as an ORM to efficiently manage interactions with the MySQL database. This experience not only strengthened my full-stack development skills but also helped me understand the importance of synergy between the front-end and back-end in the application lifecycle."
+        },
+        "database": {
+            "title": "Database Knowledge",
+            "details": "Data management was a central element in the stock management project I developed. I worked with MySQL to create efficient data structures and optimize the queries necessary for proper stock management. This experience allowed me to understand the importance of database optimization, particularly in terms of performance and reliability. I learned to structure tables logically and to develop complex queries to extract relevant information, which is essential for any web application."
+        },
+        "projectManagement": {
+            "title": "Project Management",
+            "details": "Project management was a key skill I developed during my internship. I took the initiative to organize my tasks autonomously, listing and marking them as completed as they progressed. Additionally, I developed essential documents, such as the initial specifications document, which served as a roadmap for development. I also documented the application structure, including the API, database, and user interface, to ensure clarity in project execution. Furthermore, I prepared comprehensive documentation to facilitate system redeployment on another machine if necessary. My work was carried out in close collaboration with my mentor to resolve practical issues, as well as with future users of the application to tailor the product to their specific needs."
+        },
+        "conclusion": {
+            "title": "Conclusion",
+            "details": "The knowledge mobilized during my missions at Flying Eye was a springboard for my professional development. It allowed me not only to successfully complete the missions but also to understand the issues and challenges related to each project. These experiences have prepared me to take on new challenges in web development and to engage in future projects with confidence and competence."
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "title": "Conception de mon Portfolio/Blog Dynamique",
+    "shortDescription": "Comment j'ai conçu un portfolio/blog avec une structure modulaire et dynamique.",
+    "publicationDate": "2024-09-30",
+    "intro": "Dans cet article, je vais vous présenter la conception de mon portfolio/blog et comment il est structuré pour faciliter l'ajout de contenu. Ce projet a été une véritable aventure, et je souhaite partager les leçons que j'ai apprises en cours de route.",
+    "sections": {
+        "impressions": {
+            "title": "Impressions Générales",
+            "details": "La création de ce portfolio a été une expérience enrichissante qui m'a permis d'appliquer mes compétences en développement web. J'ai pu expérimenter des solutions techniques pour créer une plateforme qui non seulement met en valeur mes travaux, mais qui est également facile à gérer et à mettre à jour."
+        },
+        "experience": {
+            "title": "Expérience Acquise",
+            "details": "L'un des aspects les plus importants de ce projet a été l'apprentissage de la création d'une structure modulaire. Chaque article et chaque entreprise est logé dans son propre dossier, ce qui simplifie considérablement la gestion du contenu. Pour ajouter un nouvel article, il suffit de créer un dossier contenant les éléments nécessaires, notamment :\n\n- Composant de la page de l'article : Ce fichier contient la logique et la présentation de l'article.\n- Images : Chaque article peut inclure des images pertinentes pour enrichir le contenu visuel.\n- Fichiers de traduction (fr.json et en.json) : Ces fichiers permettent de gérer la localisation du contenu en français et en anglais.\n\nL'URL de l'article est directement liée au nom du dossier, ce qui facilite la navigation. Par exemple, un article situé dans un dossier nommé mon-article sera accessible à l'URL sqwado.com/fr/articles/mon-article."
+        },
+        "improvements": {
+            "title": "Points d'Amélioration",
+            "details": "L'utilisation de traductions et d'une structure dynamique a nécessité une attention particulière à la gestion des fichiers. J'ai appris à être plus organisé dans la façon dont je structure mes données et à m'assurer que tout est bien référencé. Cette méthode demande une certaine rigueur, mais les avantages qu'elle offre en termes de flexibilité et d'évolutivité en valent largement la peine."
+        },
+        "suggestions": {
+            "title": "Suggestions pour l'Avenir",
+            "details": "Je recommande d'adopter cette approche modulaire pour d'autres projets, car elle facilite la maintenance et l'évolutivité. En plus de cela, mon portfolio est totalement compatible avec les modes sombre et clair, offrant une expérience utilisateur agréable quelle que soit la préférence de l'utilisateur. De plus, il est 100% responsive, ce qui garantit un affichage optimal sur les appareils mobiles."
+        },
+        "conclusion": {
+            "title": "Conclusion",
+            "details": "J'espère que cet article vous inspirera à adopter une structure similaire pour vos propres projets. La conception de mon portfolio/blog m'a non seulement permis de mettre en avant mes compétences, mais elle m'a également appris l'importance d'une bonne organisation dans le développement web. N'hésitez pas à explorer mon portfolio pour découvrir d'autres articles que j'ai publiés et pour voir comment cette structure dynamique fonctionne en pratique !"
+        }
+    }
+}

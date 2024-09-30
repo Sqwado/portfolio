@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -10,8 +10,7 @@ import droneUsageImage from './droneUsage.jpg';
 import DocumentTitle from '../../utils/DocumentTitle';
 
 const FlyingEye = () => {
-    const { t, i18n } = useTranslation('flyingeye');
-    const [loading, setLoading] = useState(true);
+    const { t } = useTranslation('flyingeye');
     const navigate = useNavigate();
     DocumentTitle('SP - ' + t('name'));
 
@@ -20,19 +19,6 @@ const FlyingEye = () => {
     const { ref: activityRef, inView: activityInView } = useInView({ triggerOnce: true, threshold: 0.1 });
     const { ref: internshipRef, inView: internshipInView } = useInView({ triggerOnce: true, threshold: 0.1 });
     const { ref: innovationsRef, inView: innovationsInView } = useInView({ triggerOnce: true, threshold: 0.1 });
-
-    useEffect(() => {
-        const loadTranslations = async () => {
-            await i18n.loadNamespaces('flyingeye');
-            setLoading(false);
-        };
-
-        loadTranslations();
-    }, [i18n]);
-
-    if (loading) {
-        return <div>Loading translations...</div>;
-    }
 
     // Fonction pour gérer le retour
     const handleBackClick = () => {
@@ -75,7 +61,7 @@ const FlyingEye = () => {
                 <motion.img
                     src={companyImage}
                     alt={t('name')}
-                    className="mt-6 rounded-lg shadow-lg"
+                    className="mt-6 rounded-lg shadow-lg object-cover w-full max-h-[460px]"
                     initial={{ scale: 0.8, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.7 }}
@@ -97,7 +83,7 @@ const FlyingEye = () => {
                     <motion.img
                         src={innovationImage}
                         alt="Innovation chez Flying Eye"
-                        className="mt-4 rounded-lg shadow-lg"
+                        className="mt-4 rounded-lg shadow-lg object-cover w-full max-h-[460px]"
                         initial={{ scale: 0.8, opacity: 0 }}
                         animate={{ scale: descInView ? 1 : 0.8, opacity: descInView ? 1 : 0 }}
                         transition={{ duration: 0.6 }}
@@ -135,7 +121,7 @@ const FlyingEye = () => {
                     <motion.img
                         src={droneUsageImage}
                         alt="Utilisation des drones"
-                        className="mt-4 rounded-lg shadow-lg"
+                        className="mt-4 rounded-lg shadow-lg object-cover w-full max-h-[460px]"
                         initial={{ scale: 0.8, opacity: 0 }}
                         animate={{ scale: activityInView ? 1 : 0.8, opacity: activityInView ? 1 : 0 }}
                         transition={{ duration: 0.6 }}

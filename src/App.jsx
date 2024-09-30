@@ -4,6 +4,8 @@ import Contact from './pages/Contact';
 import Layout from './components/Layout';
 import CompanyList from './pages/CompanyList';
 import CompanyDetails from './pages/CompanyDetails';
+import ArticleList from './pages/ArticleList';
+import ArticleDetails from './pages/ArticleDetails';
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 
@@ -30,6 +32,8 @@ const App = () => {
           <Route path="/:lang/contact" element={<Contact />} />
           <Route path="/:lang/enterprises" element={<CompanyList />} /> {/* Company List */}
           <Route path="/:lang/enterprises/:companySlug" element={<CompanyDetails />} /> {/* Company Details */}
+          <Route path="/:lang/articles" element={<ArticleList />} /> {/* Article List */}
+          <Route path="/:lang/articles/:articleSlug" element={<ArticleDetails />} /> {/* Article Details */}
           <Route path="*" element={<Navigate to="/fr" replace />} />
         </Routes>
       </Layout>

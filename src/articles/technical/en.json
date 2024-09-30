@@ -1,0 +1,28 @@
+{
+    "title": "Technical Aspects of Missions",
+    "shortDescription": "Exploration of the technologies used during my missions.",
+    "publicationDate": "2024-09-15",
+    "intro": "The technical missions carried out during my internship at Flying Eye were a valuable opportunity to deepen my knowledge in web development. The technical aspects of the projects focused on setting up a complete stock management system, from development to deployment.",
+    "sections": {
+        "development": {
+            "title": "Development of the Stock Management System",
+            "details": "The development of the stock management system was carried out using modern technologies such as React for the front-end and Node.js with Sequelize for the back-end. The main objective was to create an application capable of efficiently managing stock entries and exits while offering an intuitive and responsive user interface."
+        },
+        "database": {
+            "title": "Database Management",
+            "details": "For data management, I used MySQL in combination with Sequelize, an ORM (Object Relational Mapping) that simplifies the management of SQL queries and relationships between different tables. The database structure was designed to allow smooth and optimized management of stock-related data while offering enhanced security."
+        },
+        "psdk": {
+            "title": "Development with DJI PSDK for Enterprise Drones",
+            "details": "In addition to projects related to the stock management system, I worked on developing a solution using the DJI Payload SDK (PSDK) to control accessories for DJI enterprise drones. This solution, developed in C on an STM32 microcontroller, allows the integration of accessory control into the drone's remote control (RC) commands. This includes managing onboard equipment such as sensors or cameras and using them remotely via the DJI interface, which improves the efficiency of field missions."
+        },
+        "deployment": {
+            "title": "Deployment with PM2 and Nginx",
+            "details": "The system deployment was carried out on a local server with the help of PM2 to manage Node.js processes and Nginx for handling HTTP requests. This configuration ensured the system's availability while guaranteeing good server resource allocation."
+        },
+        "conclusion": {
+            "title": "Conclusion",
+            "details": "These technical aspects were crucial to the success of my missions. By using cutting-edge technologies, we not only developed a high-performance and stable system but also a scalable tool ready to adapt to future industry requirements. This forward-thinking technological approach allows the company to stay ahead of market developments and anticipate tomorrow's needs."
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "title": "Designing My Portfolio/Blog: A Dynamic Structure for Developers",
+    "shortDescription": "Discover how I designed a portfolio/blog with a modular and dynamic structure.",
+    "publicationDate": "2024-09-30",
+    "intro": "In this article, I will present the design of my portfolio/blog and how it is structured to facilitate content addition.",
+    "sections": {
+        "impressions": {
+            "title": "General Impressions",
+            "details": "Creating this portfolio has been an enriching adventure that allowed me to apply my web development skills."
+        },
+        "experience": {
+            "title": "Gained Experience",
+            "details": "I learned to create a modular structure where each article is in its own folder, simplifying content management."
+        },
+        "improvements": {
+            "title": "Areas for Improvement",
+            "details": "Using translations and a dynamic structure required special attention to file management."
+        },
+        "suggestions": {
+            "title": "Suggestions for the Future",
+            "details": "I recommend using this modular approach for other projects as it facilitates maintenance and scalability."
+        },
+        "conclusion": {
+            "title": "Conclusion",
+            "details": "I hope this article inspires you to adopt a similar structure for your own projects."
+        }
+    }
+}

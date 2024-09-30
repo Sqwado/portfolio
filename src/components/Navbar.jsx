@@ -24,8 +24,9 @@ const Navbar = () => {
 
     const menuItems = [
         { to: "/", text: t('nav.home') },
-        { to: "/contact", text: t('nav.contact') },
         { to: "/enterprises", text: t('nav.enterprises') },
+        { to: "/articles", text: t('nav.articles') },
+        { to: "/contact", text: t('nav.contact') },
     ];
 
     return (

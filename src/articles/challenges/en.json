@@ -1,0 +1,28 @@
+{
+    "title": "Challenges Encountered and Solutions",
+    "shortDescription": "A look at the challenges I faced during my assignments and the solutions provided.",
+    "publicationDate": "2024-09-08",
+    "intro": "Every project presents challenges, and my internship at Flying Eye was no exception. Faced with a demanding technical environment, several difficulties emerged over the course of the assignments. However, these obstacles also provided an opportunity to develop innovative and effective solutions.",
+    "sections": {
+        "stockSystem": {
+            "title": "Challenge: Implementing the Stock Management System",
+            "details": "Designing the stock management system proved to be complex due to the need to manage a large amount of data in real-time. Synchronizing information between the database and the user interface had to be seamless while considering performance. This stock management also required increased security to prevent any data loss or manipulation."
+        },
+        "solution1": {
+            "title": "Solution: Structuring Development in Phases",
+            "details": "To overcome these challenges, I structured the development into different phases. First, I defined a clear data model using Sequelize to manage relationships between different entities. Then, I implemented an efficient front-end architecture in React to ensure smooth navigation and real-time data display. Each development phase was followed by rigorous testing to ensure the robustness of the application."
+        },
+        "deployment": {
+            "title": "Challenge: Deployment on a Local Server",
+            "details": "Deploying on a local server also presented challenges. In particular, managing system resources and configuring Nginx to ensure constant system availability were critical aspects. Additionally, log management and error monitoring had to be optimized to ensure application stability."
+        },
+        "solution2": {
+            "title": "Solution: Automation and Log Monitoring",
+            "details": "I implemented an automation system using PM2 to manage Node.js processes and ensure server resilience. At the same time, log monitoring tools were configured to monitor system performance in real-time and detect errors before they became critical."
+        },
+        "conclusion": {
+            "title": "Conclusion",
+            "details": "The challenges encountered during my internship were formative. They allowed me to develop appropriate technical solutions while learning to better manage the constraints related to project management and the deployment of complex applications."
+        }
+    }
+}

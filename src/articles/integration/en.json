@@ -1,0 +1,27 @@
+{
+    "title": "Integration at Flying Eye",
+    "shortDescription": "An overview of my integration at Flying Eye during my end-of-second-year Bachelor's internship in computer science.",
+    "publicationDate": "2024-09-01",
+    "sections": {
+        "description": {
+            "title": "Overview",
+            "details": "Integration into a new company is often a crucial moment, especially for an intern. It involves not only understanding professional expectations but also adapting to a new culture and integrating into an existing team."
+        },
+        "culture": {
+            "title": "Understanding Company Culture",
+            "details": "Every company has its own codes and culture. At Flying Eye, innovation and technology are at the heart of activities. I quickly understood that the company values initiative and adaptability. Integrating into such a dynamic environment allowed me to learn to adapt quickly to a constantly evolving environment."
+        },
+        "relationships": {
+            "title": "Building Strong Relationships",
+            "details": "One of the most important aspects of my integration was establishing relationships with team members. I had the chance to work with experienced colleagues who guided me through various processes. Through regular exchanges, I was able to quickly understand the company's expectations and adapt my work accordingly."
+        },
+        "process": {
+            "title": "Learning Internal Processes",
+            "details": "Learning the internal processes was a significant challenge. Flying Eye, being a company specialized in innovative technologies, made it essential for me to quickly master the tools and technical processes used daily. This learning phase was enriching as it allowed me to develop a broader understanding of the company's technological ecosystem."
+        },
+        "conclusion": {
+            "title": "Conclusion",
+            "details": "My integration at Flying Eye was a key stage of my internship. It allowed me to adapt quickly, understand the company culture, and build strong relationships with my colleagues. This experience also provided me with a solid foundation to accomplish the tasks assigned to me."
+        }
+    }
+}
