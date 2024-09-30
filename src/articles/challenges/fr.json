@@ -2,8 +2,11 @@
     "title": "Difficultés rencontrées et solutions",
     "shortDescription": "Un regard sur les défis que j'ai rencontrés lors de mes missions et les solutions apportées.",
     "publicationDate": "2024-09-08",
-    "intro": "Chaque projet présente des défis, et mon stage chez Flying Eye n'a pas fait exception. Face à un environnement technique exigeant, plusieurs difficultés ont émergé au fil des missions. Cependant, ces obstacles ont également été l'occasion de développer des solutions innovantes et efficaces.",
     "sections": {
+        "intro": {
+            "title": "Introduction",
+            "details": "Chaque projet présente des défis, et mon stage chez Flying Eye n'a pas fait exception. Face à un environnement technique exigeant, plusieurs difficultés ont émergé au fil des missions. Cependant, ces obstacles ont également été l'occasion de développer des solutions innovantes et efficaces."
+        },
         "stockSystem": {
             "title": "Difficulté : Mise en place du système de gestion de stock",
             "details": "La conception du système de gestion de stock s'est avérée complexe en raison de la nécessité de gérer une grande quantité de données en temps réel. La synchronisation des informations entre la base de données et l'interface utilisateur devait être fluide, tout en prenant en compte les performances. Cette gestion des stocks nécessitait également une sécurité accrue pour éviter toute perte ou manipulation de données."

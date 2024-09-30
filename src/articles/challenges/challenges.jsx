@@ -13,6 +13,7 @@ const Challenges = () => {
     const navigate = useNavigate();
     DocumentTitle('SP - ' + t('title'));
 
+    const { ref: introRef, inView: introInView } = useInView({ triggerOnce: true, threshold: 0.1 });
     const { ref: stockSystemRef, inView: stockSystemInView } = useInView({ triggerOnce: true, threshold: 0.1 });
     const { ref: solution1Ref, inView: solution1InView } = useInView({ triggerOnce: true, threshold: 0.1 });
     const { ref: deploymentRef, inView: deploymentInView } = useInView({ triggerOnce: true, threshold: 0.1 });
@@ -75,6 +76,21 @@ const Challenges = () => {
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.7 }}
                 />
+
+                {/* Introduction */}
+                <motion.div
+                    ref={introRef}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: introInView ? 1 : 0 }}
+                    transition={{ duration: 0.6 }}
+                >
+                    <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-6">
+                        {t('sections.intro.title')}
+                    </h2>
+                    <p className="text-gray-700 dark:text-stone-300">
+                        {t('sections.intro.details')}
+                    </p>
+                </motion.div>
 
                 {/* Difficulté : Mise en place du système de gestion de stock */}
                 <motion.div

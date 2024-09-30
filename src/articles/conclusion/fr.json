@@ -2,8 +2,11 @@
     "title": "Bilan de mon stage",
     "shortDescription": "Une réflexion sur l'expérience acquise et les leçons tirées.",
     "publicationDate": "2024-09-29",
-    "intro": "Mon stage chez Flying Eye a été une expérience incroyablement enrichissante et formatrice. Cette période de deux mois et demi m’a non seulement permis d’approfondir mes compétences techniques, mais également de me plonger dans le monde professionnel, où j’ai rencontré divers défis qui ont façonné ma vision du développement de solutions applicatives.",
     "sections": {
+        "intro": {
+            "title": "Introduction",
+            "details": "Mon stage chez Flying Eye a été une expérience incroyablement enrichissante et formatrice. Cette période de deux mois et demi m’a non seulement permis d’approfondir mes compétences techniques, mais également de me plonger dans le monde professionnel, où j’ai rencontré divers défis qui ont façonné ma vision du développement de solutions applicatives.\n\nDans ce bilan, je vais partager mes impressions générales sur l'entreprise, l'expérience acquise durant mon stage, les points d'amélioration à considérer, mes suggestions pour l'avenir, et enfin, ma conclusion sur cette période riche en apprentissages et en découvertes."
+        },
         "impressions": {
             "title": "Impressions générales",
             "details": "Dès mon arrivée chez Flying Eye, j'ai été frappé par l'environnement de travail stimulant et innovant. La culture d'entreprise, axée sur la collaboration et la créativité, m'a immédiatement mis à l'aise. L'esprit d'équipe qui règne au sein de l'entreprise a été un facteur clé dans mon intégration. J'ai pu échanger des idées librement avec mes collègues, ce qui a non seulement enrichi mes connaissances, mais a également cultivé un sentiment d’appartenance.\n\nLe soutien constant de mon mentor a été une autre facette positive de cette expérience. Son approche pédagogique et sa disponibilité pour répondre à mes questions m'ont permis de naviguer avec assurance dans mes missions. Cela m'a également appris l'importance de l'accompagnement et du partage de connaissances dans le cadre professionnel."

@@ -1,12 +1,15 @@
 {
-    "title": "Challenges Encountered and Solutions",
+    "title": "Challenges Faced and Solutions",
     "shortDescription": "A look at the challenges I faced during my assignments and the solutions provided.",
     "publicationDate": "2024-09-08",
-    "intro": "Every project presents challenges, and my internship at Flying Eye was no exception. Faced with a demanding technical environment, several difficulties emerged over the course of the assignments. However, these obstacles also provided an opportunity to develop innovative and effective solutions.",
     "sections": {
+        "intro": {
+            "title": "Introduction",
+            "details": "Every project presents challenges, and my internship at Flying Eye was no exception. Faced with a demanding technical environment, several difficulties emerged throughout the assignments. However, these obstacles also provided an opportunity to develop innovative and effective solutions."
+        },
         "stockSystem": {
             "title": "Challenge: Implementing the Stock Management System",
-            "details": "Designing the stock management system proved to be complex due to the need to manage a large amount of data in real-time. Synchronizing information between the database and the user interface had to be seamless while considering performance. This stock management also required increased security to prevent any data loss or manipulation."
+            "details": "Designing the stock management system proved complex due to the need to manage a large amount of data in real-time. Synchronizing information between the database and the user interface had to be seamless while considering performance. This stock management also required increased security to prevent any data loss or manipulation."
         },
         "solution1": {
             "title": "Solution: Structuring Development in Phases",
@@ -22,7 +25,7 @@
         },
         "conclusion": {
             "title": "Conclusion",
-            "details": "The challenges encountered during my internship were formative. They allowed me to develop appropriate technical solutions while learning to better manage the constraints related to project management and the deployment of complex applications."
+            "details": "The challenges faced during my internship were formative. They allowed me to develop suitable technical solutions while learning to better manage the constraints related to project management and the deployment of complex applications."
         }
     }
 }

@@ -84,10 +84,10 @@ const Blog = () => {
                     transition={{ duration: 0.6 }}
                 >
                     <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mt-6">
-                        Introduction
+                        {t('sections.intro.title')}
                     </h2>
                     <p className="text-gray-700 dark:text-stone-300">
-                        {t('intro')}
+                        {t('sections.intro.details')}
                     </p>
                 </motion.div>
 

@@ -2,8 +2,11 @@
     "title": "Conception de mon Portfolio/Blog Dynamique",
     "shortDescription": "Comment j'ai conçu un portfolio/blog avec une structure modulaire et dynamique.",
     "publicationDate": "2024-09-30",
-    "intro": "Dans cet article, je vais vous présenter la conception de mon portfolio/blog et comment il est structuré pour faciliter l'ajout de contenu. Ce projet a été une véritable aventure, et je souhaite partager les leçons que j'ai apprises en cours de route.",
     "sections": {
+        "intro": {
+            "title": "Introduction",
+            "details": "Dans cet article, je vais vous présenter la conception de mon portfolio/blog et comment il est structuré pour faciliter l'ajout de contenu. Ce projet a été une véritable aventure, et je souhaite partager les leçons que j'ai apprises en cours de route."
+        },
         "impressions": {
             "title": "Impressions Générales",
             "details": "La création de ce portfolio a été une expérience enrichissante qui m'a permis d'appliquer mes compétences en développement web. J'ai pu expérimenter des solutions techniques pour créer une plateforme qui non seulement met en valeur mes travaux, mais qui est également facile à gérer et à mettre à jour."

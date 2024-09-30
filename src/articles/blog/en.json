@@ -1,28 +1,31 @@
 {
-    "title": "Designing My Portfolio/Blog: A Dynamic Structure for Developers",
-    "shortDescription": "Discover how I designed a portfolio/blog with a modular and dynamic structure.",
+    "title": "Designing My Dynamic Portfolio/Blog",
+    "shortDescription": "How I designed a portfolio/blog with a modular and dynamic structure.",
     "publicationDate": "2024-09-30",
-    "intro": "In this article, I will present the design of my portfolio/blog and how it is structured to facilitate content addition.",
     "sections": {
+        "intro": {
+            "title": "Introduction",
+            "details": "In this article, I will present the design of my portfolio/blog and how it is structured to facilitate the addition of content. This project has been a real adventure, and I want to share the lessons I learned along the way."
+        },
         "impressions": {
             "title": "General Impressions",
-            "details": "Creating this portfolio has been an enriching adventure that allowed me to apply my web development skills."
+            "details": "Creating this portfolio has been a rewarding experience that allowed me to apply my web development skills. I was able to experiment with technical solutions to create a platform that not only showcases my work but is also easy to manage and update."
         },
         "experience": {
             "title": "Gained Experience",
-            "details": "I learned to create a modular structure where each article is in its own folder, simplifying content management."
+            "details": "One of the most important aspects of this project was learning to create a modular structure. Each article and each company is housed in its own folder, which greatly simplifies content management. To add a new article, simply create a folder containing the necessary elements, including:\n\n- Article page component: This file contains the logic and presentation of the article.\n- Images: Each article can include relevant images to enrich the visual content.\n- Translation files (fr.json and en.json): These files manage the localization of content in French and English.\n\nThe URL of the article is directly linked to the folder name, making navigation easy. For example, an article located in a folder named my-article will be accessible at the URL sqwado.com/en/articles/my-article."
         },
         "improvements": {
             "title": "Areas for Improvement",
-            "details": "Using translations and a dynamic structure required special attention to file management."
+            "details": "The use of translations and a dynamic structure required special attention to file management. I learned to be more organized in how I structure my data and ensure everything is well-referenced. This method requires a certain level of rigor, but the benefits it offers in terms of flexibility and scalability are well worth it."
         },
         "suggestions": {
             "title": "Suggestions for the Future",
-            "details": "I recommend using this modular approach for other projects as it facilitates maintenance and scalability."
+            "details": "I recommend adopting this modular approach for other projects, as it facilitates maintenance and scalability. Additionally, my portfolio is fully compatible with both dark and light modes, providing a pleasant user experience regardless of user preference. Moreover, it is 100% responsive, ensuring optimal display on mobile devices."
         },
         "conclusion": {
             "title": "Conclusion",
-            "details": "I hope this article inspires you to adopt a similar structure for your own projects."
+            "details": "I hope this article inspires you to adopt a similar structure for your own projects. Designing my portfolio/blog not only allowed me to showcase my skills but also taught me the importance of good organization in web development. Feel free to explore my portfolio to discover other articles I have published and to see how this dynamic structure works in practice!"
         }
     }
 }
