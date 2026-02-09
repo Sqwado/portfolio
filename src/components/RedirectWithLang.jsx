@@ -1,4 +1,5 @@
 import { useLocation, Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 const RedirectWithLang = ({ to, ...props }) => {
     const location = useLocation();
@@ -14,6 +15,13 @@ const RedirectWithLang = ({ to, ...props }) => {
     return (
         <Link to={newPath} className={`${isActive ? activeStyle : inactiveStyle} text-xl hover:text-gray-900 dark:hover:text-white transition duration-200 hover:bg-gray-200 dark:hover:bg-stone-800 rounded-lg px-2 py-1`} {...props} />
     );
+};
+
+RedirectWithLang.propTypes = {
+    to: PropTypes.string.isRequired,
+    children: PropTypes.node,
+    className: PropTypes.string,
+    onClick: PropTypes.func,
 };
 
 export default RedirectWithLang;

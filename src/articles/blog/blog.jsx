@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -7,11 +7,23 @@ import { FaArrowLeft } from 'react-icons/fa';
 import introImage from './blog.jpg'; // Image d'introduction
 import middleImage from './middleImage.svg'; // Image au milieu du contenu
 import DocumentTitle from '../../utils/DocumentTitle';
+import { formatDate } from '../../utils/formatDate';
 
 const Blog = () => {
-    const { t } = useTranslation('blog');
+    const { t, i18n } = useTranslation('blog');
     const navigate = useNavigate();
     DocumentTitle('Portfolio - ' + t('title'));
+
+    // Fonction pour formater la date selon la langue
+    const formatDate = (dateString) => {
+        const date = new Date(dateString);
+        const locale = i18n.language === 'fr' ? 'fr-FR' : 'en-US';
+        return date.toLocaleDateString(locale, { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+    };
 
     const { ref: introRef, inView: introInView } = useInView({ triggerOnce: true, threshold: 0.1 });
     const { ref: impressionsRef, inView: impressionsInView } = useInView({ triggerOnce: true, threshold: 0.1 });
@@ -63,7 +75,7 @@ const Blog = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    {t('publicationDate')}
+                    {formatDate(t('publicationDate'), i18n.language)}
                 </motion.p>
 
                 {/* Image d'introduction */}

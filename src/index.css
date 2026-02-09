@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,22 +8,29 @@
   @apply transition-colors duration-500;
 }
 
-
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  /* Couleur du texte en mode sombre */
-  background-color: #000000;
-  /* Fond noir pur pour le dark mode */
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #050505;
+  /* Deep black for modern feel */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Outfit', sans-serif;
 }
 
 a {
@@ -83,6 +92,6 @@ button:focus-visible {
   }
 
   button {
-    background-color: #f9f9f9;
+    /* bg-color removed to avoid overriding component styles */
   }
 }

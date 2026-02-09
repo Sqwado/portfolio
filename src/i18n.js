@@ -34,27 +34,24 @@ const addResourcesFromFiles = (resources, files) => {
 };
 
 // Fonction pour charger tous les fichiers de traduction des entreprises
-const loadEnterpriseTranslations = async (resources = {}) => {
+const loadEnterpriseTranslations = (resources = {}) => {
     const translationFiles = import.meta.glob('./entreprises/**/+(fr|en).json', { eager: true });
-
     resources = addResourcesFromFiles(resources, translationFiles);
-
     return resources;
 };
 
 // Fonction pour charger tous les fichiers de traduction des articles
-const laodArticlesTranslations = async (resources = {}) => {
+const loadArticlesTranslations = (resources = {}) => {
     const translationFiles = import.meta.glob('./articles/**/+(fr|en).json', { eager: true });
-
     resources = addResourcesFromFiles(resources, translationFiles);
-
     return resources;
 };
 
 // Charger les traductions et initialiser i18next
-const initI18n = async () => {
-    const resources = await loadEnterpriseTranslations(await laodArticlesTranslations(initialresources));
-
+const initI18n = () => {
+    let resources = initialresources;
+    resources = loadEnterpriseTranslations(resources);
+    resources = loadArticlesTranslations(resources);
 
     i18n
         .use(initReactI18next)

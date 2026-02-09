@@ -1,5 +1,5 @@
 
-import { useRef, useEffect } from 'react'
+import { useEffect } from 'react'
 
 function DocumentTitle(title) {
 

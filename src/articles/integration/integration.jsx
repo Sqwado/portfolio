@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -7,9 +7,10 @@ import { FaArrowLeft } from 'react-icons/fa';
 import integrationImage from './integration.jpg'; // Image d'introduction
 import onboardingImage from './onboarding.jpg'; // Image du milieu
 import DocumentTitle from '../../utils/DocumentTitle';
+import { formatDate } from '../../utils/formatDate';
 
 const Integration = () => {
-    const { t } = useTranslation('integration');
+    const { t, i18n } = useTranslation('integration');
     const navigate = useNavigate();
     DocumentTitle('SP - ' + t('title'));
 
@@ -63,7 +64,7 @@ const Integration = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    {t('publicationDate')}
+                    {formatDate(t('publicationDate'), i18n.language)}
                 </motion.p>
 
                 {/* Image d'introduction */}

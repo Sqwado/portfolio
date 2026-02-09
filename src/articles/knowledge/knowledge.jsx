@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -7,9 +7,10 @@ import { FaArrowLeft } from 'react-icons/fa';
 import webTechImage from './knowledge.jpg'; // Image for web technologies section
 import projectManagementImage from './projectManagement.webp'; // Image for project management section
 import DocumentTitle from '../../utils/DocumentTitle';
+import { formatDate } from '../../utils/formatDate';
 
 const Knowledge = () => {
-    const { t } = useTranslation('knowledge');
+    const { t, i18n } = useTranslation('knowledge');
     const navigate = useNavigate();
     DocumentTitle('SP - ' + t('title'));
 
@@ -61,7 +62,7 @@ const Knowledge = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    {t('publicationDate')}
+                    {formatDate(t('publicationDate'), i18n.language)}
                 </motion.p>
 
                 {/* Image d'introduction */}

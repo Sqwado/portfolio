@@ -57,12 +57,15 @@
         "description": "Feel free to contact me for any questions or collaboration proposals. I would be happy to discuss with you.",
         "info": {
             "title": "Contact Information",
-            "details": "All contact information is available below and in the downloadable CV.",
+            "details": "All contact information is available in the downloadable CV.",
             "email": "Email",
             "phone": "Phone"
         },
-        "social": "Social Networks"
+        "social": "Social Networks",
+        "send_email": "Send Email"
     },
+    "read_more": "Read More",
+    "view_details": "View Details",
     "companyList": {
         "title": "Company List",
         "description": "Here you can find a list of companies I have worked with.",

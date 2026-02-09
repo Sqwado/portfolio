@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -7,9 +7,10 @@ import { FaArrowLeft } from 'react-icons/fa';
 import introImage from './technical.jpg'; // Image d'introduction
 import deploymentImage from './deployment.jpg'; // Image du milieu
 import DocumentTitle from '../../utils/DocumentTitle';
+import { formatDate } from '../../utils/formatDate';
 
 const Technical = () => {
-    const { t } = useTranslation('technical');
+    const { t, i18n } = useTranslation('technical');
     const navigate = useNavigate();
     DocumentTitle('SP - ' + t('title'));
 
@@ -62,7 +63,7 @@ const Technical = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    {t('publicationDate')}
+                    {formatDate(t('publicationDate'), i18n.language)}
                 </motion.p>
 
                 {/* Image d'introduction */}

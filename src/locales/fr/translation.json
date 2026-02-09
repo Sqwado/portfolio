@@ -57,12 +57,15 @@
         "description": "N'hésitez pas à me contacter pour toute question ou proposition de collaboration. Je serai ravi d'échanger avec vous.",
         "info": {
             "title": "Informations de Contact",
-            "details": "Toutes les informations de contact sont disponibles ci-dessous et dans le CV téléchargeable.",
+            "details": "Toutes les informations de contact sont disponibles dans le CV téléchargeable.",
             "email": "Email",
             "phone": "Téléphone"
         },
-        "social": "Réseaux Sociaux"
+        "social": "Réseaux Sociaux",
+        "send_email": "Envoyer un e-mail"
     },
+    "read_more": "Lire la suite",
+    "view_details": "Voir les détails",
     "companyList": {
         "title": "Liste des entreprises",
         "description": "Ici, vous pouvez trouver une liste des entreprises avec lesquelles j'ai travaillé.",

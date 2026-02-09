@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -7,9 +7,10 @@ import { FaArrowLeft } from 'react-icons/fa';
 import introImage from './conclusion.jpg'; // Image for introduction section
 import middleImage from './skills.jpg'; // Image for middle of content
 import DocumentTitle from '../../utils/DocumentTitle';
+import { formatDate } from '../../utils/formatDate';
 
 const InternshipReview = () => {
-    const { t } = useTranslation('conclusion');
+    const { t, i18n } = useTranslation('conclusion');
     const navigate = useNavigate();
     DocumentTitle('SP - ' + t('title'));
 
@@ -63,7 +64,7 @@ const InternshipReview = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    {t('publicationDate')}
+                    {formatDate(t('publicationDate'), i18n.language)}
                 </motion.p>
 
                 {/* Image d'introduction */}

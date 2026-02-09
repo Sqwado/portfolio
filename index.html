@@ -12,6 +12,18 @@
 </head>
 
 <body>
+  <script>
+    (function () {
+      const theme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+        document.body.style.backgroundColor = '#050505';
+      } else {
+        document.documentElement.classList.remove('dark');
+        document.body.style.backgroundColor = '#f9fafb';
+      }
+    })();
+  </script>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>

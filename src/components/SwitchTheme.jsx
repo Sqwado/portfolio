@@ -18,8 +18,8 @@ const SwitchTheme = () => {
             onClick={toggleTheme}
             aria-label="Toggle Dark Mode"
             className={`relative p-2 transition-all rounded-full focus:outline-none focus:ring-2 ${isDarkMode
-                ? 'bg-gray-700 hover:bg-gray-600 focus:ring-gray-500' // Dark mode styles
-                : 'bg-gray-200 hover:bg-gray-300 focus:ring-gray-400' // Light mode styles
+                ? '!bg-gray-700 hover:bg-gray-600 focus:ring-gray-500' // Dark mode styles
+                : '!bg-gray-200 hover:bg-gray-300 focus:ring-gray-400' // Light mode styles
                 }`}
             variants={buttonVariants}
             initial="initial"
